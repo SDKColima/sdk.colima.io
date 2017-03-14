@@ -1,7 +1,7 @@
 # Código de conducta
 
 Nosotros, los organizadores de SDK Colima, nos comprometemos a mantener un entorno
-sin abusos para todo el mundo, sin importar sexo, identidad u orientación sexuales,
+sin abusos para todo el mundo, sin importar sexo, identidad u orientación sexual,
 discapacidad, aspecto físico, edad, raza, nacionalidad o creencias religiosas.
 No toleraremos el acoso a los asistentes de el evento bajo ningún concepto. Los
 participantes que violen estas reglas pueden ser sancionados o expulsados de
