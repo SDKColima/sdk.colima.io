@@ -481,7 +481,8 @@ body {
   margin: auto;
   max-width: 600px;
   padding-left: 24px;
-  padding-right: 24px; }
+  padding-right: 24px;
+}
 
 body > *:not(:first-child) {
   padding-top: 48px;
@@ -588,7 +589,8 @@ p {
         line-height: 60px; } }
 
 .navigation_c {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 48px; }
   .navigation_c .link {
     display: inline-block; }
   .navigation_c .link + .link {
