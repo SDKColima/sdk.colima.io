@@ -43,5 +43,14 @@ body {
   display: inline-block;
 }
 .navigation_c .link + .link {
-  margin-left: 10px; 
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: 'Radikal-Bold';
+  font-size: 40pt;
+}
+
+h2 {
+  font-family: 'Radikal-Medium';
 }
