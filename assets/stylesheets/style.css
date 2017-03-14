@@ -54,3 +54,7 @@ h1 {
 h2 {
   font-family: 'Radikal-Medium';
 }
+
+.avatar {
+  border-radius: 50%;
+}
