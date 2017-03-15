@@ -47,6 +47,8 @@ body {
   margin-left: 10px;
 }
 
+footer a:visited,
+footer a:focus,
 .navbar-nav > li > a:visited,
 .navbar-default .navbar-nav > li > a:focus {
   color: #CCC;
