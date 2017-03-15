@@ -2,71 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SDK Colima</title>
   <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
   <link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
-    <div class="row">
+    <div class="col-sm-3 col-sm-offset-9">
+    <ul class="nav navbar-nav">
+      <li class="hidden-xs"><a href="#ponentes">Ponentes</a></li>
+      <li><a href="#speakers">Registro</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container">
+    <section id="banner" class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+        <img src="assets/img/sdkbanner.png" width="100%">
+      </div>
+    </section>
+    <section id="copy" class="row">
       <div class="col-sm-10 col-sm-offset-1">
-        <div class="text-center">
-            <a href="/">
-              <img src="assets/img/sdkcolima.svg" height="200">
-            </a>
-            <h2>12 de Mayo 2017</h2>
-            <h2>Museo Regional de Historia de Colima</h2>
-        </div>
-        <hr>
-        <div>
-          <p>
-          SDK Colima tiene como objetivo el acercar a expertos en tecnologías y lenguajes de programación que se utilizan en el desarrollo de software actualmente con la comunidad de desarrolladores de Colima, teniendo como meta expandir el panorama de opciones para quienes desean dedicarse a está área tecnológica.
-          </p>
+        <p>SDK Colima es un evento que tiene como objetivo acercar a expertos en tecnologías y lenguajes de programación que se utilizan en el desarrollo de software actual con la comunidad de desarrolladores de Colima.</p>
 
-          <p>Durante el ciclo de pláticas se presentarán los siguientes temas:</p>
+        <p>Durante el ciclo de pláticas se presentarán temas que abarcarán los siguientes lenguajes de programación:</p>
 
-          <ul>
-            <li>Elixir</li>
-            <li>Go</li>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>Julia</li>
-            <li>Java</li>
-          </ul>
+        <ul>
+          <li>Elixir</li>
+          <li>Go</li>
+          <li>Javascript</li>
+          <li>Julia</li>
+          <li>Java</li>
+        </ul>
 
-          <p>En cada uno de los temas, los ponentes nos contarán de su experiencia profesional desarrollando software, y al final tendremos un panel de preguntas y respuestas libre con todos los ponentes.</p>
+        <p>En cada uno de los temas, los ponentes nos contarán de su experiencia profesional desarrollando software con alguno de estos lenguajes y al final tendremos un panel de preguntas y respuestas libre con todos los ponentes.</p>
 
-          <p>Si eres estudiante o profesionista de alguna carrera de TI, no pierdas la oportunidad de participar en este evento único que te permitirá conocer lo que está sucediendo en el ámbito de la programación en México.</p>
-        </div>
-        <hr>
+        <p>Con SDK Colima queremos expandir el panorama de opciones para quienes desean dedicarse profesionalmente a desarrollar software.</p>
+
+        <p>Si eres estudiante de alguna carrera de TI no pierdas la oportunidad de participar en este evento único que te permitirá conocer lo que está sucediendo en el ámbito de la programación profesional en México.</p>
+      </div>
+    </section>
+    <section id="ponentes" class="row">
+      <div class="col-sm-10 col-sm-offset-1">
         <h1 class="text-center">Ponentes</h1>
         <div class="row">
+
           <div class="ponente col-sm-4">
             <div class="row">
               <div class="col-sm-10 col-sm-offset-1">
-                <h2>Enrique<br>Zamudio</h2>
-                <h2 class="title"><span class="small">Java Champion</span></h2>
                 <img src="assets/img/speakers/chochos.jpg" width="100%" class="avatar">
-                <div class="bio">
-                  <p>Enrique Zamudio se dedica a la programación de manera profesional desde 1994, especializándose en desarrollos del lado del servidor, tales como switches transaccionales y plataformas de pago. Es el autor de los proyectos open source j8583 y jAlarms y forma parte del equipo que desarrolla el lenguaje Ceylon desde 2012, donde se encarga del compilador de Ceylon a Javascript.</p>
-                </div>
+                <div class="name">Enrique<br>Zamudio</div>
+                <div class="twitter"><a href="http://twitter.com/chochosmx" target="_BLANK">@chochosmx</a></div>
+                <div class="title">Java</div>
               </div>
             </div>
           </div>
-        </div>
-        <hr>
-        <div id="sponsors">
-          <h1 class="text-center">Patrocinado por:</h1>
-          <div class="logos">
-            <img src="assets/img/sponsors/michelada.io.svg">
+
+          <div class="ponente col-sm-4">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <img src="assets/img/speakers/vero.png" width="100%" class="avatar">
+                <div class="name">Verónica<br>López</div>
+                <div class="twitter"><a href="http://twitter.com/maria_fibonacci" target="_BLANK">@maria_fibonacci</a></div>
+                <div class="title">Go</div>
+              </div>
+            </div>
           </div>
-        </div>
-        <hr>
-        <div class="footer">
-          <a class="link" href="/codigo-de-conducta.html">Código de conducta</a>
+
+          <div class="ponente col-sm-4">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <img src="assets/img/speakers/jeduan.jpg" width="100%" class="avatar">
+                <div class="name">Jeduan<br>Cornejo</div>
+                <div class="twitter"><a href="http://twitter.com/jeduan" target="_BLANK">@jeduan</a></div>
+                <div class="title">Javascript</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ponente col-sm-4">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <img src="assets/img/speakers/norberto.jpg" width="100%" class="avatar">
+                <div class="name">Norberto<br>Ortigoza</div>
+                <div class="twitter"><a href="http://twitter.com/hiphoox" target="_BLANK">@hiphoox</a></div>
+                <div class="title">Elixir</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ponente col-sm-4">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <img src="assets/img/speakers/dpsanders.jpg" width="100%" class="avatar">
+                <div class="name">David<br>Sanders</div>
+                <div class="twitter"><a href="http://twitter.com/@davidpsanders/" target="_BLANK">@davidpsanders</a></div>
+                <div class="title">Julia</div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
+    </section>
+    <footer class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="https://www.michelada.io" target="_BLANK">michelada.io</a>
+          </div>
+          <div class="col-sm-4">
+            <a class="link" href="#">Preguntas Frecuentes</a>
+          </div>
+          <div class="col-sm-4">
+            <a class="link" href="codigo-de-conducta.html">Código de conducta</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
