@@ -125,6 +125,7 @@ footer a, footer a:hover {
 
 .navbar-default {
   background-color: #292C52;
+  border-color: #292C52;
 }
 
 .navbar-default .navbar-nav>li>a {
