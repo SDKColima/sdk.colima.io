@@ -148,7 +148,7 @@ ul {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 119pt;
+    font-size: 89pt;
   }
 
   #copy p {
@@ -157,5 +157,11 @@ ul {
 
   ul {
     font-size: 16pt;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 119pt;
   }
 }
