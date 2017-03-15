@@ -49,12 +49,24 @@ body {
 h1 {
   font-family: 'Radikal-Bold';
   font-size: 40pt;
+  color: #292C52;
 }
 
 h2 {
   font-family: 'Radikal-Medium';
+  color: #292C52;
 }
 
 .avatar {
-  border-radius: 50%;
+  margin-bottom: 30px;
 }
+
+.title {
+  line-height: 1pt;
+  margin-bottom: 30px;
+}
+
+.bio {
+  text-align: center;
+}
+
