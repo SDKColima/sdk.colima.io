@@ -67,6 +67,11 @@ h2 {
   font-size: 37pt;
 }
 
+.cta {
+  background-color: #ea3434;
+  font-family: 'Radikal-Bold';
+}
+
 .ponente {
   text-align: center;
   margin-top: 10px;
