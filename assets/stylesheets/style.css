@@ -165,12 +165,16 @@ ul {
     font-size: 89pt;
   }
 
-  #copy p {
+  ul {
     font-size: 16pt;
   }
 
-  ul {
-    font-size: 16pt;
+  #copy p {
+    font-size: 21pt;
+  }
+
+  #copy ul {
+    font-size: 21pt;
   }
 }
 
