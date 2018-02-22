@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600");
+@font-face {
+  font-family: 'Radikal-Black';
+  src: url("webfonts/334391_0_0.eot");
+  src: url("webfonts/334391_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/334391_0_0.woff2") format("woff2"), url("webfonts/334391_0_0.woff") format("woff"), url("webfonts/334391_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Radikal-Bold';
+  src: url("webfonts/334391_1_0.eot");
+  src: url("webfonts/334391_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/334391_1_0.woff2") format("woff2"), url("webfonts/334391_1_0.woff") format("woff"), url("webfonts/334391_1_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Radikal-Light';
+  src: url("webfonts/334391_2_0.eot");
+  src: url("webfonts/334391_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/334391_2_0.woff2") format("woff2"), url("webfonts/334391_2_0.woff") format("woff"), url("webfonts/334391_2_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Radikal-Medium';
+  src: url("webfonts/334391_3_0.eot");
+  src: url("webfonts/334391_3_0.eot?#iefix") format("embedded-opentype"), url("webfonts/334391_3_0.woff2") format("woff2"), url("webfonts/334391_3_0.woff") format("woff"), url("webfonts/334391_3_0.ttf") format("truetype"); }
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #333366; }
+
+.nav-link {
+  font-family: 'Radikal-Bold';
+  font-size: 14px;
+  letter-spacing: 2.1px; }
+  @media only screen and (min-width: 426px) {
+    .nav-link {
+      font-size: 25px; } }
+
+.hero-copy {
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  line-height: 27px;
+  text-align: center; }
+  @media only screen and (min-width: 426px) {
+    .hero-copy {
+      line-height: 37px;
+      font-size: 22.5px; } }
+
+.section-title {
+  color: #ff3333;
+  font-family: 'Radikal-Bold';
+  font-size: 70px;
+  letter-spacing: 5px; }
+  @media only screen and (min-width: 426px) {
+    .section-title {
+      font-size: 100px;
+      letter-spacing: 13px; } }
+
+.speaker {
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center; }
+
+.bg-dark {
+  background-color: #333366 !important; }
+
+.bg-secondary {
+  background-color: #ff3333 !important; }
+
+.navbar-dark .nav-item {
+  z-index: 9; }
+.navbar-dark .nav-link {
+  color: #fff !important; }
+
+.hero-logo {
+  position: relative;
+  bottom: 20px; }
+  @media only screen and (min-width: 426px) {
+    .hero-logo {
+      bottom: 40px; } }
+
+header {
+  padding: 0 25px; }
+  @media only screen and (min-width: 426px) {
+    header {
+      padding: 0; } }
+
+.speaker {
+  margin-bottom: 20px; }
+  .speaker img {
+    display: block;
+    margin: 0 auto 15px; }
+  @media only screen and (min-width: 426px) {
+    .speaker:nth-child(odd) {
+      margin-top: 100px; }
+    .speaker:nth-child(1) {
+      left: 40px;
+      position: relative; }
+    .speaker:nth-child(3) {
+      position: relative;
+      right: 80px; } }
+
+.michelogo {
+  width: 230px;
+  display: block;
+  margin: 0 auto; }
+
+footer .social-media-icon {
+  margin-right: 17px;
+  height: 30px; }
+
+.navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
