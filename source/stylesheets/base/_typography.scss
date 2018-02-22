@@ -1,0 +1,37 @@
+@font-face {font-family: 'Radikal-Black';src: url('webfonts/334391_0_0.eot');src: url('webfonts/334391_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_0_0.woff2') format('woff2'),url('webfonts/334391_0_0.woff') format('woff'),url('webfonts/334391_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Bold';src: url('webfonts/334391_1_0.eot');src: url('webfonts/334391_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_1_0.woff2') format('woff2'),url('webfonts/334391_1_0.woff') format('woff'),url('webfonts/334391_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Light';src: url('webfonts/334391_2_0.eot');src: url('webfonts/334391_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_2_0.woff2') format('woff2'),url('webfonts/334391_2_0.woff') format('woff'),url('webfonts/334391_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Medium';src: url('webfonts/334391_3_0.eot');src: url('webfonts/334391_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_3_0.woff2') format('woff2'),url('webfonts/334391_3_0.woff') format('woff'),url('webfonts/334391_3_0.ttf') format('truetype');}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: $primary-color;
+}
+
+.nav-link {
+  font-family: 'Radikal-Bold';
+  font-size: 25px;
+  letter-spacing: 2.1px;
+}
+
+.hero-copy {
+  font-size: 22.5px;
+  letter-spacing: 2.7px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.section-title {
+  color: $secondary-color;
+  font-family: 'Radikal-Bold';
+  font-size: 100px;
+  letter-spacing: 13px;
+}
+
+.speaker {
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+}

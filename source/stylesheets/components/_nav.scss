@@ -1,0 +1,17 @@
+.bg-dark {
+  background-color: $primary-color !important;
+}
+
+.bg-secondary {
+  background-color: $secondary-color !important;
+}
+
+.navbar-dark {
+  .nav-item {
+    z-index: 9;
+  }
+
+  .nav-link {
+    color: $white !important;
+  }
+}
