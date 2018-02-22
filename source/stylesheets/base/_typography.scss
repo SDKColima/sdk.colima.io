@@ -7,27 +7,42 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  font-size: 20px;
   color: $primary-color;
 }
 
 .nav-link {
   font-family: 'Radikal-Bold';
-  font-size: 25px;
+  font-size: 14px;
   letter-spacing: 2.1px;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 25px;
+  }
 }
 
 .hero-copy {
-  font-size: 22.5px;
+  font-size: 18px;
   letter-spacing: 2.7px;
-  line-height: 37px;
+  line-height: 27px;
   text-align: center;
+
+  @media only screen and (min-width: 426px) {
+    line-height: 37px;
+    font-size: 22.5px;
+  }
 }
 
 .section-title {
   color: $secondary-color;
   font-family: 'Radikal-Bold';
-  font-size: 100px;
-  letter-spacing: 13px;
+  font-size: 70px;
+  letter-spacing: 5px;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 100px;
+    letter-spacing: 13px;
+  }
 }
 
 .speaker {
