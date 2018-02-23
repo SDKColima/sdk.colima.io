@@ -33,7 +33,7 @@ body {
   }
 }
 
-.section-title {
+%section-title {
   color: $secondary-color;
   font-family: 'Radikal-Bold';
   font-size: 70px;
@@ -42,6 +42,19 @@ body {
   @media only screen and (min-width: 426px) {
     font-size: 100px;
     letter-spacing: 13px;
+  }
+}
+
+.section-title {
+  @extend %section-title;
+}
+
+.section-subtitle {
+  @extend %section-title;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 60px;
+    letter-spacing: 5px;
   }
 }
 
