@@ -1,0 +1,185 @@
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+/* Document
+   ========================================================================== */
+
+@import url("http://hello.myfonts.net/count/334391");
+
+
+@font-face {font-family: 'Radikal-Black';src: url('webfonts/334391_0_0.eot');src: url('webfonts/334391_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_0_0.woff2') format('woff2'),url('webfonts/334391_0_0.woff') format('woff'),url('webfonts/334391_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Radikal-Bold';src: url('webfonts/334391_1_0.eot');src: url('webfonts/334391_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_1_0.woff2') format('woff2'),url('webfonts/334391_1_0.woff') format('woff'),url('webfonts/334391_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Radikal-Light';src: url('webfonts/334391_2_0.eot');src: url('webfonts/334391_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_2_0.woff2') format('woff2'),url('webfonts/334391_2_0.woff') format('woff'),url('webfonts/334391_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Radikal-Medium';src: url('webfonts/334391_3_0.eot');src: url('webfonts/334391_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_3_0.woff2') format('woff2'),url('webfonts/334391_3_0.woff') format('woff'),url('webfonts/334391_3_0.ttf') format('truetype');}
+
+
+html {
+  font-family: 'Radikal-Light'; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+body {
+  font-family: 'Radikal-Light';
+  padding-top: 70px;
+}
+
+.navigation_c {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.navigation_c .link {
+  display: inline-block;
+}
+.navigation_c .link + .link {
+  margin-left: 10px;
+}
+
+footer a:visited,
+footer a:focus,
+.navbar-nav > li > a:visited,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #CCC;
+}
+
+h1 {
+  font-family: 'Radikal-Bold';
+  color: #15162f;
+  font-size: 50pt;
+}
+
+
+h2 {
+  font-family: 'Radikal-Medium';
+  color: #292C52;
+  font-size: 37pt;
+}
+
+.cta {
+  background-color: #ea3434;
+  font-family: 'Radikal-Bold';
+}
+
+.ponente {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  margin-bottom: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+#ponentes .name {
+  color: #ea3434;
+  font-size: 28pt;
+  font-family: 'Radikal-Bold';
+  line-height: 40px;
+}
+
+#ponentes .twitter a {
+  font-size: 16pt;
+  font-family: 'Radikal-Medium';
+  color: #292C52;
+}
+
+#ponentes .title {
+  font-size: 21pt;
+  font-family: 'Radikal-Medium';
+  color: #15162F;
+}
+
+.bio {
+  text-align: center;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+footer {
+  background-color: #292C52;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer a, footer a:hover {
+  color: white;
+  font-size: 16pt;
+}
+
+.btn {
+  width: 100%;
+}
+
+#copy p {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: justify;
+  font-size: 12pt;
+}
+
+.navbar-default {
+  background-color: #292C52;
+  border-color: #292C52;
+  border-width: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ul {
+  font-size: 12pt;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 89pt;
+  }
+
+  ul {
+    font-size: 16pt;
+  }
+
+  #copy p {
+    font-size: 21pt;
+  }
+
+  #copy ul {
+    font-size: 21pt;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 119pt;
+  }
+}
