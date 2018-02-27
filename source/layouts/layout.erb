@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "michelada.io" %></title>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item pr-2">
+          <a class="nav-link" href="index.html#speakers">ponentes</a>
+        </li>
+        <li class="nav-item pl-2 bg-secondary">
+          <a class="nav-link" href=">">registro proximamente</a>
+        </li>
+      </ul>
+    </nav>
+    <%= yield %>
+    <footer class='mt-5'>
+      <div class='container'>
+        <p class='text-center'>
+        Si estás interesado o tienes alguna duda, por favor envía un correo a info@sdkcolima.com
+        </p>
+        <div class='row'>
+          <div class='col'>
+            <%= image_tag 'michelada-logo.svg', class: 'michelogo' %>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2 px-0 mt-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pr-2 pt-1">
+            <%= image_tag 'twitter.svg', class: 'social-media-icon' %>
+            <%= image_tag 'facebook.svg', class: 'social-media-icon' %>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link p-0 pt-2 pt-sm-0" href="codigo-de-conducta.html">c&oacute;digo de conducta</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

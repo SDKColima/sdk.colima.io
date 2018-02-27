@@ -1,0 +1,65 @@
+@font-face {font-family: 'Radikal-Black';src: url('webfonts/334391_0_0.eot');src: url('webfonts/334391_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_0_0.woff2') format('woff2'),url('webfonts/334391_0_0.woff') format('woff'),url('webfonts/334391_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Bold';src: url('webfonts/334391_1_0.eot');src: url('webfonts/334391_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_1_0.woff2') format('woff2'),url('webfonts/334391_1_0.woff') format('woff'),url('webfonts/334391_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Light';src: url('webfonts/334391_2_0.eot');src: url('webfonts/334391_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_2_0.woff2') format('woff2'),url('webfonts/334391_2_0.woff') format('woff'),url('webfonts/334391_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Radikal-Medium';src: url('webfonts/334391_3_0.eot');src: url('webfonts/334391_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_3_0.woff2') format('woff2'),url('webfonts/334391_3_0.woff') format('woff'),url('webfonts/334391_3_0.ttf') format('truetype');}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: $primary-color;
+}
+
+.nav-link {
+  font-family: 'Radikal-Bold';
+  font-size: 14px;
+  letter-spacing: 2.1px;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 25px;
+  }
+}
+
+.hero-copy {
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  line-height: 27px;
+  text-align: center;
+
+  @media only screen and (min-width: 426px) {
+    line-height: 37px;
+    font-size: 22.5px;
+  }
+}
+
+%section-title {
+  color: $secondary-color;
+  font-family: 'Radikal-Bold';
+  font-size: 70px;
+  letter-spacing: 5px;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 100px;
+    letter-spacing: 13px;
+  }
+}
+
+.section-title {
+  @extend %section-title;
+}
+
+.section-subtitle {
+  @extend %section-title;
+
+  @media only screen and (min-width: 426px) {
+    font-size: 60px;
+    letter-spacing: 5px;
+  }
+}
+
+.speaker {
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+}

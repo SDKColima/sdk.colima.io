@@ -1,0 +1,24 @@
+.speaker {
+  margin-bottom: 20px;
+
+  img {
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  @media only screen and (min-width: 426px) {
+    &:nth-child(odd) {
+      margin-top: 160px;
+    }
+
+    &:nth-child(1) {
+      left: 40px;
+      position: relative;
+    }
+
+    &:nth-child(3) {
+      position: relative;
+      right: 80px;
+    }
+  }
+}
