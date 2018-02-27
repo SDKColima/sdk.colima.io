@@ -3,10 +3,8 @@
 @font-face {font-family: 'Radikal-Light';src: url('webfonts/334391_2_0.eot');src: url('webfonts/334391_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_2_0.woff2') format('woff2'),url('webfonts/334391_2_0.woff') format('woff'),url('webfonts/334391_2_0.ttf') format('truetype');}
 @font-face {font-family: 'Radikal-Medium';src: url('webfonts/334391_3_0.eot');src: url('webfonts/334391_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_3_0.woff2') format('woff2'),url('webfonts/334391_3_0.woff') format('woff'),url('webfonts/334391_3_0.ttf') format('truetype');}
 
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
-
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Radikal-Bold', sans-serif;
   font-size: 20px;
   color: $primary-color;
 }
@@ -62,4 +60,13 @@ body {
   font-size: 25px;
   line-height: 27px;
   text-align: center;
+}
+
+.speaker-first-name, .speaker-last-name {
+  font-family: 'Radikal-Bold';
+  color: $orangey-red;
+}
+
+a, a:visited, a:hover {
+  color: $dark-grey-blue;
 }
