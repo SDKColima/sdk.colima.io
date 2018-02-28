@@ -62,9 +62,13 @@ body {
   text-align: center;
 }
 
-.speaker-first-name, .speaker-last-name {
+.speaker-name {
   font-family: 'Radikal-Bold';
   color: $orangey-red;
+}
+
+.speaker-talk {
+  margin-top: 10px;
 }
 
 a, a:visited, a:hover {
