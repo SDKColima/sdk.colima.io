@@ -64,14 +64,16 @@ body {
 }
 
 .speaker-name {
-  font-family: 'Radikal-Bold';
   color: $orangey-red;
+  font-family: 'Radikal-Bold';
 }
 
 .speaker-talk {
   margin-top: 10px;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
   color: $dark-grey-blue;
 }
