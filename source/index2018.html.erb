@@ -1,0 +1,49 @@
+---
+title: sdk 2019
+---
+<main class='container'>
+  <header class='row'>
+    <div class='col-md-10 offset-md-1 col-lg-8 offset-lg-2'>
+      <%= image_tag 'hero-logo.svg', class: 'hero-logo mx-auto img-fluid d-block' %>
+      <h3 class='section-subtitle text-center'>12 de Mayo - 10:00 am</h3>
+    </div>
+  </header>
+  <section>
+    <p class='hero-copy mt-5'>
+      SDK Colima es un evento cuyo objetivo es acercar a expertos en tecnologías y lenguajes de programación con la comunidad de desarrolladores de Colima.
+    </p>
+    <p class='hero-copy mt-1'>
+      Queremos expandir el panorama de opciones para quienes desean dedicarse profesionalmente a desarrollar software.
+    </p>
+    <p class='hero-copy mt-1'>
+      Si eres estudiante de alguna carrera de TI no pierdas la oportunidad de participar en este evento único que te permitirá conocer lo que está sucediendo en el ámbito de la programación profesional en México.</p>
+    </p>
+  </section>
+
+  <%= partial 'speakers' %>
+  <%= partial 'schedule' %>
+  <%= partial 'location' %>
+
+  <div class='container'>
+    <p class='text-center'>
+    Si estás interesado o tienes alguna duda, por favor envía un correo a info@sdkcolima.com
+    </p>
+    <div class='row mt-5 pt-5'>
+      <div class='col-12 col-sm-6 text-center'>
+        <div class='mb-2'>patrocinado por:</div>
+        <a href='http://michelada.io'>
+          <%= image_tag 'michelada.icon.svg', class: 'd-inline-block mr-4', height: 60 %>
+        </a>
+        <a href='https://goamv.com/'>
+          <%= image_tag 'amv-vector4@px.png', class: 'amvlogo d-inline-block' %>
+        </a>
+      </div>
+      <div class='col-12 col-sm-6 mt-4 mt-sm-0'>
+        <div class='text-center mb-2'>con ayuda de:</div>
+        <a href='http://www.webdevtalks.mx/'>
+          <%= image_tag 'wdt@2x.png', class: 'd-block  mx-auto' %>
+        </a>
+      </div>
+    </div>
+  </div>
+</main>

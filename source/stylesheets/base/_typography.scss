@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 @font-face {font-family: 'Radikal-Black';src: url('webfonts/334391_0_0.eot');src: url('webfonts/334391_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_0_0.woff2') format('woff2'),url('webfonts/334391_0_0.woff') format('woff'),url('webfonts/334391_0_0.ttf') format('truetype');}
 @font-face {font-family: 'Radikal-Bold';src: url('webfonts/334391_1_0.eot');src: url('webfonts/334391_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_1_0.woff2') format('woff2'),url('webfonts/334391_1_0.woff') format('woff'),url('webfonts/334391_1_0.ttf') format('truetype');}
 @font-face {font-family: 'Radikal-Light';src: url('webfonts/334391_2_0.eot');src: url('webfonts/334391_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_2_0.woff2') format('woff2'),url('webfonts/334391_2_0.woff') format('woff'),url('webfonts/334391_2_0.ttf') format('truetype');}
 @font-face {font-family: 'Radikal-Medium';src: url('webfonts/334391_3_0.eot');src: url('webfonts/334391_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/334391_3_0.woff2') format('woff2'),url('webfonts/334391_3_0.woff') format('woff'),url('webfonts/334391_3_0.ttf') format('truetype');}
 
 body {
-  font-family: 'Radikal-Bold', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: $primary-color;
 }
