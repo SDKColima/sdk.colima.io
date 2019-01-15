@@ -3,6 +3,7 @@
 @import 'vendor/bootstrap_and_overrides';
 
 @import 'base/typography';
+@import 'base/reset';
 
 @import 'components/nav';
 
@@ -11,3 +12,5 @@
 @import 'layout/footer';
 @import 'layout/nav';
 @import 'layout/map';
+
+@import 'pages/comingsoon';
